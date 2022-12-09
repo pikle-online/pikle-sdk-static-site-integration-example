@@ -1,0 +1,1 @@
+# pikle-sdk-static-site-integration-example
