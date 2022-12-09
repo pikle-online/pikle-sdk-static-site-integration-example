@@ -1,4 +1,6 @@
 module.exports = function (eleventyConfig) {
+
+  const PATH_PREFIX = '/pikle-sdk-static-site-integration-example/'
   eleventyConfig.addPassthroughCopy("./src/style.css");
 
   eleventyConfig.addPassthroughCopy("assets");
@@ -13,7 +15,7 @@ module.exports = function (eleventyConfig) {
       <h4>${price}</h4>
       <div class="d-flex cart-action-section">
         <button type="button" class="btn add-to-cart success"><span class="btn__content"> Add To Cart </span></button>
-        <div class="pikle-compare-button" data-href="${url}" data-cart-url="/cart/add/${productId}" data-cart-method="post"></div>
+        <div class="pikle-compare-button" data-href="${PATH_PREFIX}${url}" data-cart-url="${PATH_PREFIX}cart/add/${productId}" data-cart-method="post"></div>
       </div>
     </div>` :
     `<div>
@@ -54,7 +56,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
-    pathPrefix: "/pikle-sdk-static-site-integration-example/",
+    pathPrefix: PATH_PREFIX,
     dir: {
       input: "src",
       output: "docs"
