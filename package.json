@@ -1,0 +1,16 @@
+{
+  "name": "pikle-sdk-static-site-integration-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "env NODE_ENV=production eleventy --pathprefix 'pikle-sdk-static-site-integration-example'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}

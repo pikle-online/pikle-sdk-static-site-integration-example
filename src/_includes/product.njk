@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:image" content="{{ img }}">
+  <title>{{ title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Pikle SDK Comparison Example</h1>
+    <div>
+      <a href="/">Products</a> / {{ title }}
+    </div>
+  </header>
+  <main>
+    <h1>{{ title }}</h1>
+    <div class="d-flex">
+      <div class="mr-6">
+        <img src="{{ img }}" width="150" height="150">
+      </div>
+      {% addtocart price, page.url, product.data.productId, true %}
+    </div>
+    <div class="container container--fluid">
+      <div class="text-left section-text">
+      {{ content | safe }}
+      </div>
+    </div>
+  </main>
+  {% piklestatus 'fab' %}
+  
+</body>
+</html>
