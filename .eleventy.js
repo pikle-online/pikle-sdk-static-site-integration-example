@@ -1,9 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/style.css");
 
-  eleventyConfig.addPassthroughCopy("composer.json");
-  eleventyConfig.addPassthroughCopy("index.php");
-
   eleventyConfig.addPassthroughCopy("assets");
 
   eleventyConfig.addFilter("categoryFilter", function(value, category) {
@@ -57,6 +54,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/pikle-sdk-static-site-integration-example/",
     dir: {
       input: "src",
       output: "docs"
