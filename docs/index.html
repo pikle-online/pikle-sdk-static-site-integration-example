@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta property="pikle:key" content="y9iIhUD2LrGYgctNlJhc">
+  <meta property="pikle:key" content="DNCLkdb0cr1gXpS0iRhd">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pikle JS SDK Integration example - with Comparison Service</title>
@@ -89,11 +89,29 @@
   </div>
 </div>
   </main>
-  <div class="pikle-compare-status" data-layout="fixed"></div>
   <footer>
   <div>This site demonstrates adding Comparison as a Service using the Pikle JS SDK and is not a store.</div>
   <a href="https://www.freepik.com/free-vector/laptop_3232494.htm#query=laptop%20icon&position=1&from_view=keyword">Laptop image by rawpixel.com</a> on Freepik
   <a href="https://www.flaticon.com/free-icons/work" title="work icons">Work icons created by Freepik - Flaticon</a>
   </footer>
+  <div class="pikle-compare-status" data-layout="fixed"></div>
+  <div id="pikle-root"></div>
+    <script>
+      (function(w, id, c) {
+        w[id] = w[id] || (w[id] = []);
+        w[id].push(c);
+      } (window, 'PIKLE',
+        {
+          appKey  : 'DNCLkdb0cr1gXpS0iRhd',
+          version : 'v1.0',
+          compare  : {
+            showInit: true,
+            loadOnHover: true,
+            limit: 4
+          }
+        }
+      ));
+    </script>
+    <script crossorigin="anonymous" src="https://connect.pikle.online/jssdk/v1.0/init.js"></script>
 </body>
 </html>
