@@ -1,6 +1,6 @@
 ---
-title: Laptop A i5 4.4GHz 16GB RAM 256GB SSD with Windows 10 Pro
-img: "/assets/images/laptopA.jpg"
+title: Laptop A i5 4.4GHz 16GB RAM 256GB SSD
+img: "/assets/images/laptop.png"
 price: $3765.50
 productId: 'customProductA'
 category: 'asus-laptops'

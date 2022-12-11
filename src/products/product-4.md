@@ -1,6 +1,6 @@
 ---
 title: Laptop Bag
-img: "/assets/images/laptopC.jpg"
+img: "/assets/images/briefcase.png"
 price: $320.10
 productId: 'customProductD'
 category: 'laptop-bags'

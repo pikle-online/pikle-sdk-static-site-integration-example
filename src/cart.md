@@ -1,5 +1,5 @@
 ---
-title: Pikle SDK Comparison Example
+title: Pikle JS SDK Integration example - with Comparison Service
 layout: "cart.njk"
 ---
 
