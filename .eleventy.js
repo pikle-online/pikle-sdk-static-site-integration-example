@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
 
-  const PATH_PREFIX = '/pikle-sdk-static-site-integration-example/'
+  const PATH_PREFIX = '/pikle-sdk-static-site-integration-example'
   eleventyConfig.addPassthroughCopy("./src/style.css");
 
   eleventyConfig.addPassthroughCopy("assets");
