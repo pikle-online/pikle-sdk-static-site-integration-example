@@ -7,5 +7,5 @@ layout: "cart.njk"
   Your Shopping Cart
 </h1>
 <div>
-  <a href="/">Continue Shopping</a>
+  <a href="{{ '/' | url }}">Continue Shopping</a>
 </div>
