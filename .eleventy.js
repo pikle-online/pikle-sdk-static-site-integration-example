@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
           appKey  : '${appkey}',
           version : 'v1.0',
           compare  : {
-            showInit: false,
+            showInit: true,
             loadOnHover: true,
             limit: 4
           }
