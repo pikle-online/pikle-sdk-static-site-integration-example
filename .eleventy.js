@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
         }
       ));
     </script>
-    <script async defer crossorigin="anonymous" src="${initSrc}"></script>`;
+    <script crossorigin="anonymous" src="${initSrc}"></script>`;
   });
 
   
