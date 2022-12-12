@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 
   // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)
   eleventyConfig.addShortcode("piklejssdk", function(appkey) {
-    const initSrc = 'https://missing.pikle.online/jssdk/v1.0/init.js'
+    const initSrc = 'https://connect.pikle.online/jssdk/v1.0/init.js'
     return `<div id="pikle-root"></div>
     <script>
       (function(w, id, c) {
