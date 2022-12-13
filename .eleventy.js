@@ -27,8 +27,8 @@ module.exports = function (eleventyConfig) {
   });
 
   // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)
-  eleventyConfig.addShortcode("piklejssdk", function(appkey) {
-    const initSrc = 'https://connect.pikle.online/jssdk/v1.0/init.js'
+  eleventyConfig.addShortcode("piklejssdk", function(appkey, environment) {
+    const initSrc = environment === 'staging' ? 'https://pikle-connect-staging.web.app/jssdk/v1.0/init.js' : 'https://connect.pikle.online/jssdk/v1.0/init.js';
     return `<div id="pikle-root"></div>
     <script>
       (function(w, id, c) {
