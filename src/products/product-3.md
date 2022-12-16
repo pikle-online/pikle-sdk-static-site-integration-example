@@ -17,7 +17,7 @@ category: 'acer-laptops'
         • Storage: 512 GB PCIe NVMe TLC SSD<br>
         • Graphics: Integrated Intel UHD Graphics<br>
         • Optical drive: <i>None</i><br>
-        • Interfaces: 2 x USB-C Ports (Thunderbolt 4), 2 x USB Type-A 3.1 Gen 1 port, 1 x Stereo 3.5mm audio combo jack; 1 x HDMI 2.0b; 1 x AC power input<br>
+        • Interfaces: SD/SDXC Memory Card x1 (Keyboard); Configuration port (Tablet): Serial, 2D Barcode Reader, 2nd USB 2.0; USB 3.1 x3 (x1 Tablet, x2 Keyboard); USB 3.1 type C PD x1; USB 2.0 x1 optional (Tablet), x1 (Keyboard); HDMI x1 (Tablet), x1 (Keyboard); VGA x1 (Keyboard); Native Serial Port x1 optional (Tablet), x1 (Keyboard); Headset x1 (Tablet), x1 (Keyboard); DC In x2 (Tablet + Keyboard); Port Replicator x1 (Keyboard); Dual Antenna Connector x1 (Keyboard)<br>
         • Wireless: Intel AX201 WiFi 6 802.11ax + Bluetooth 5.0<br>
         • Mobile Connectivity: Intel XMM 7360 LTE Advanced Broadband Module<br>
         • Power Supply: HP Smart External AC power adapter<br>
