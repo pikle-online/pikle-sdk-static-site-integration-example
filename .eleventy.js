@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
       <h4>${price}</h4>
       <div class="d-flex cart-action-section">
         <button type="button" class="btn add-to-cart success"><span class="btn__content"> Add To Cart </span></button>
-        <div class="pikle-compare-button" data-href="${PATH_PREFIX}${url}" data-feature-price="100 NZD" data-cart-url="${PATH_PREFIX}cart/add/${productId}" data-cart-method="navigate"></div>
+        <div class="pikle-compare-button" data-href="${PATH_PREFIX}${url}" data-cart-url="${PATH_PREFIX}cart/add/${productId}" data-cart-method="navigate"></div>
       </div>
     </div>` :
     `<div>
