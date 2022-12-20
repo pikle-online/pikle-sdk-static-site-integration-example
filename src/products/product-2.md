@@ -1,7 +1,7 @@
 ---
 title: Laptop B i7 4.7GHz 32GB RAM 1TB SSD
 img: "/assets/images/laptop.png"
-price: $4089.60
+price: $4069.60
 productId: 'customProductB'
 category: 'acer-laptops'
 ---

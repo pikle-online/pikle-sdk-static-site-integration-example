@@ -1,7 +1,7 @@
 ---
 title: Laptop C G8 14 Inch i7 16GB RAM 512B SSD
 img: "/assets/images/laptop.png"
-price: $3140.95
+price: $3090.95
 productId: 'customProductC'
 category: 'acer-laptops'
 ---

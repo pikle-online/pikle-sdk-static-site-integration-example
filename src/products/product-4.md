@@ -1,7 +1,7 @@
 ---
 title: Laptop Bag
 img: "/assets/images/briefcase.png"
-price: $320.10
+price: $310.10
 productId: 'customProductD'
 category: 'laptop-bags'
 ---
