@@ -6,6 +6,7 @@ productId: 'customProductB'
 category: 'acer-laptops'
 ---
 <div data-v-2a05d754="" class="container container--fluid">
+  <div style="margin: 10px 0px;">Display cleaning cloth included</div>
   <h4 data-v-2a05d754="" class="d-flex justify-start section-title">Specifications:</h4>
   <div data-v-2a05d754="" class="row no-gutters">
     <div data-v-2a05d754="" class="d-flex justify-start spec-list col">
