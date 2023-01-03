@@ -1,0 +1,19 @@
+---
+permalink: '/laptops-feed.json'
+---
+{
+  "laptops": [
+    {% for item in collections.products | categoryFilter(['asus-laptops', 'acer-laptops']) %}
+      {
+        "url": "{{ item.url | url }}"
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "laptop-bags": [
+    {% for item in collections.products | categoryFilter(['laptop-bags']) %}
+      {
+        "url": "{{ item.url | url }}"
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}

@@ -5,8 +5,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("assets");
 
-  eleventyConfig.addFilter("categoryFilter", function(value, category) {
-    return value.filter(next => next.data && next.data.category === category)
+  eleventyConfig.addFilter("categoryFilter", function(value, categories) {
+    return value.filter(next => next.data && categories.includes(next.data.category))
   });
 
   // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)

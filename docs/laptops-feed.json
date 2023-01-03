@@ -1,0 +1,24 @@
+{
+  "laptops": [
+    
+      {
+        "url": "/pikle-sdk-static-site-integration-example/products/product-1/"
+      },
+    
+      {
+        "url": "/pikle-sdk-static-site-integration-example/products/product-2/"
+      },
+    
+      {
+        "url": "/pikle-sdk-static-site-integration-example/products/product-3/"
+      }
+    
+  ],
+  "laptop-bags": [
+    
+      {
+        "url": "/pikle-sdk-static-site-integration-example/products/product-4/"
+      }
+    
+  ]
+}

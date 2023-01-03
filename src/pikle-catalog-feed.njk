@@ -3,21 +3,21 @@ permalink: '/pikle-catalog-feed.json'
 ---
 {
   "asus-laptops": [
-    {% for item in collections.products | categoryFilter('asus-laptops') %}
+    {% for item in collections.products | categoryFilter(['asus-laptops']) %}
       {
         "url": "{{ item.url | url }}"
       }{% if not loop.last %},{% endif %}
     {% endfor %}
   ],
   "acer-laptops": [
-    {% for item in collections.products | categoryFilter('acer-laptops') %}
+    {% for item in collections.products | categoryFilter(['acer-laptops']) %}
       {
         "url": "{{ item.url | url }}"
       }{% if not loop.last %},{% endif %}
     {% endfor %}
   ],
   "laptop-bags": [
-    {% for item in collections.products | categoryFilter('laptop-bags') %}
+    {% for item in collections.products | categoryFilter(['laptop-bags']) %}
       {
         "url": "{{ item.url | url }}"
       }{% if not loop.last %},{% endif %}
